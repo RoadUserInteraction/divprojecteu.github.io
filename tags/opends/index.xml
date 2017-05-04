@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opends on DIV documentation</title>
+    <link>/tags/opends/index.xml</link>
+    <description>Recent content in Opends on DIV documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/opends/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to create animated bicyclist model for OpenDS</title>
+      <link>/blender/cyclistModeling/</link>
+      <pubDate>Tue, 28 Mar 2017 13:00:58 +0200</pubDate>
+      
+      <guid>/blender/cyclistModeling/</guid>
+      <description>
+
+&lt;h2 id=&#34;prepare-the-models&#34;&gt;Prepare the models&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Import bike model Bicycle &lt;a href=&#34;https://www.archive3d.net/?a=download&amp;amp;id=dd0826da&#34;&gt;N011211.3ds&lt;/a&gt; model using importer 3D Studio in Blender.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a Human model using MakeHuman modeling tool. Export to .mhx format&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Import human model.mhx to blender&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Under default mode&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Combine both bike and rider model together by placing the rider on the seat of the bike.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a two Armature bone structure corresponding two pedals to be able to move the pedals, which can be coupled so that human rider model can be moved.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Under animation mode&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;pedaling-animation&#34;&gt;Pedaling animation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Create a starting pose of the biker by moving the bones of the human model&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Save the key frame&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Duplicate the starting pose to the end pose after 60 frames.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Along with the rider bone, move the armature bone attached to the pedals of the bike.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Make sure both the movement of the bones of rider and the armature start of pedaling stored in the same action editor and has the same name.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Similarly create in between key frame to make the animation of the bike pedaling action&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;waiting-action&#34;&gt;Waiting action&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Follow the same procedure to create a waiting animation by altering the rider bones and pedals.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For the waiting position, one leg of the rider is on the ground and other on the pedal.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Export the completed model using Orge3D .scene and .mesh format so it can be used to run in OpenDS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Care should be taken to create bone structure on the pedals. Without that pedaling action can’t be created.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Animation of both pedal and human model should be controlled by the same animation control.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After exporting check the .mesh file to correct the names of the human models cloths and other details.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIV documentation</title>
+    <link>/index.xml</link>
+    <description>Recent content on DIV documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Mar 2017 13:16:45 +0200</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Add texture</title>
+      <link>/blender/textureBlender/</link>
+      <pubDate>Tue, 28 Mar 2017 13:16:45 +0200</pubDate>
+      
+      <guid>/blender/textureBlender/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Create a plane (Shift + A)&lt;/li&gt;
+&lt;li&gt;Add a material by pressing new in the material tab.&lt;/li&gt;
+&lt;li&gt;Add a texture by pressing new in the texture tab.&lt;/li&gt;
+&lt;li&gt;Open the picture you want as texture.&lt;/li&gt;
+&lt;li&gt;Change the view to UV-editing.&lt;/li&gt;
+&lt;li&gt;Choose your picture in the list.&lt;/li&gt;
+&lt;li&gt;Press TAB to go into edit mode and choose Unwrap (U) to paste the picture onto the plane. Make sure you are in Texture display mode&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Duplicate object (Shift + D) and snap the object with CTRL.&lt;/li&gt;
+&lt;li&gt;Move selected object with G.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to create animated bicyclist model for OpenDS</title>
+      <link>/blender/cyclistModeling/</link>
+      <pubDate>Tue, 28 Mar 2017 13:00:58 +0200</pubDate>
+      
+      <guid>/blender/cyclistModeling/</guid>
+      <description>
+
+&lt;h2 id=&#34;prepare-the-models&#34;&gt;Prepare the models&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Import bike model Bicycle &lt;a href=&#34;https://www.archive3d.net/?a=download&amp;amp;id=dd0826da&#34;&gt;N011211.3ds&lt;/a&gt; model using importer 3D Studio in Blender.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a Human model using MakeHuman modeling tool. Export to .mhx format&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Import human model.mhx to blender&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Under default mode&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Combine both bike and rider model together by placing the rider on the seat of the bike.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a two Armature bone structure corresponding two pedals to be able to move the pedals, which can be coupled so that human rider model can be moved.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Under animation mode&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;pedaling-animation&#34;&gt;Pedaling animation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Create a starting pose of the biker by moving the bones of the human model&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Save the key frame&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Duplicate the starting pose to the end pose after 60 frames.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Along with the rider bone, move the armature bone attached to the pedals of the bike.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Make sure both the movement of the bones of rider and the armature start of pedaling stored in the same action editor and has the same name.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Similarly create in between key frame to make the animation of the bike pedaling action&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;waiting-action&#34;&gt;Waiting action&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Follow the same procedure to create a waiting animation by altering the rider bones and pedals.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For the waiting position, one leg of the rider is on the ground and other on the pedal.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Export the completed model using Orge3D .scene and .mesh format so it can be used to run in OpenDS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Care should be taken to create bone structure on the pedals. Without that pedaling action can’t be created.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Animation of both pedal and human model should be controlled by the same animation control.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After exporting check the .mesh file to correct the names of the human models cloths and other details.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to animate human models</title>
+      <link>/blender/animateHumanModel/</link>
+      <pubDate>Tue, 28 Mar 2017 12:11:02 +0200</pubDate>
+      
+      <guid>/blender/animateHumanModel/</guid>
+      <description>
+
+&lt;p&gt;Blender&amp;rsquo;s version used for this tutorial is v2.6b. And the tutorial video used as a reference: &lt;a href=&#34;https://www.youtube.com/watch?v=eThtuXZZ7M0&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;prepare-the-human-model&#34;&gt;Prepare the human model&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Import the make human model as described in the makeHuman model document (&lt;a href=&#34;./makehuman/creatingHumanModel/&#34;&gt;here&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;The model with be visible. Click the right extension tab to open additional kinematic option.&lt;/li&gt;
+&lt;li&gt;Scroll down and change leg FK to IK both left and right. This is done to constrain the model to ground plane and easily manipulated to make the animation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;animation-of-the-human-model&#34;&gt;Animation of the Human Model&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Begin with setting the initial key frame number to 1&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Before starting the animation use lock rotation location (locRot) to record the manipulation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In Start frame manipulate the human model to create a starting position for the human walking/running cycle&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To create the final frame of human walking or running cycle&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pressing the first key frame containing the all the bone movement of the human and pressing shift+D to drag and copy the frame to create the final key frame which is same as the initial position of the human.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hence creating a loop for the animationo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To create the middle frame&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Select all the key bone from frame one&lt;/li&gt;
+&lt;li&gt;Crtl + c to copy the frame&lt;/li&gt;
+&lt;li&gt;Move the frame to the middle of the start and end from&lt;/li&gt;
+&lt;li&gt;Shift + crtl + v to paste the reverse of the selected frame(flipped)
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The cycle can be edited and more refined by going through each frames in the animation to create a more refined and realistic walking cycle.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;More than one action can be created and edited by going through Action Editor on the left.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For OpenDS to be able to pick up multiple animation NLA action list have to be edited&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This can be done by selecting the nla editor on the left side.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The names of the action / animations can be altered by clicking on the list of actions created by following previous steps.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;These are the name which need to be specified in OpenDS so that the animation is visible in the simulation.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Same methods can be followed to create the running animation.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Once above steps are completed the model can now be exported to .scene format using Orge3D exporter.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Importing human model to Blender</title>
+      <link>/blender/importHuman/</link>
+      <pubDate>Tue, 28 Mar 2017 12:04:48 +0200</pubDate>
+      
+      <guid>/blender/importHuman/</guid>
+      <description>&lt;p&gt;1.Open Blender application, to import the make human model&lt;/p&gt;
+
+&lt;p&gt;2.File&amp;gt;user preference&amp;gt; files&amp;gt; Check auto run python script.&lt;/p&gt;
+
+&lt;p&gt;3.To add Makehuman importer&lt;/p&gt;
+
+&lt;p&gt;4.File&amp;gt;user preference&amp;gt; add ons&amp;gt; import-export&amp;gt; check make human importer&lt;/p&gt;
+
+&lt;p&gt;5.To Import the .mhx file go to files&amp;gt;import&amp;gt;make human(.mhx)&lt;/p&gt;
+
+&lt;p&gt;6.You can see the imported model on your workspace&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to create a human model</title>
+      <link>/makehuman/creatingHumanModel/</link>
+      <pubDate>Tue, 28 Mar 2017 09:33:37 +0200</pubDate>
+      
+      <guid>/makehuman/creatingHumanModel/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open Makehuman application&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Adjust the Macros to the required human model in the tab Modelling. Where,&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gender, Age, Muscle, Weight, Height, Proportions, Skin shade, Ethnicity can be manipulated in the form of percentage.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The result of the changes can be seen in the human model instantly.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The values of the model created i.e gender, age, weight etc can be seen in the bottom left part of make human.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The fine tuning of the human size can be measured and altered using the measure tool available in the modelling tab. Where different part sizes can be altered based on ones need.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The clothes, Eyes, hair and other options related to the human can be found in the tab Geometrics.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The required clothes and shoes are added to the model.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hair and eyebrows are added to the model.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Different options are available on the right side of the model.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After the above steps the model would look as shown below.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The color chosen for the human can be changed in the Materials tab.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The color of human related structures such as,Skin ,Hair, Eyes, and Eyebrows can be changed using the Clothes option located on the left the color of the clothes can be changed as per requirement.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After following the above said steps and when a satisfied human model is created the model can be exported.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The Model can be exported to Blender tool (.mhx) where other manipulation of the human can be carried out such as Animation and Dynamics of the human&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

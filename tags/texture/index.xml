@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Texture on DIV documentation</title>
+    <link>/tags/texture/index.xml</link>
+    <description>Recent content in Texture on DIV documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/texture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Add texture</title>
+      <link>/blender/textureBlender/</link>
+      <pubDate>Tue, 28 Mar 2017 13:16:45 +0200</pubDate>
+      
+      <guid>/blender/textureBlender/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Create a plane (Shift + A)&lt;/li&gt;
+&lt;li&gt;Add a material by pressing new in the material tab.&lt;/li&gt;
+&lt;li&gt;Add a texture by pressing new in the texture tab.&lt;/li&gt;
+&lt;li&gt;Open the picture you want as texture.&lt;/li&gt;
+&lt;li&gt;Change the view to UV-editing.&lt;/li&gt;
+&lt;li&gt;Choose your picture in the list.&lt;/li&gt;
+&lt;li&gt;Press TAB to go into edit mode and choose Unwrap (U) to paste the picture onto the plane. Make sure you are in Texture display mode&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Duplicate object (Shift + D) and snap the object with CTRL.&lt;/li&gt;
+&lt;li&gt;Move selected object with G.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

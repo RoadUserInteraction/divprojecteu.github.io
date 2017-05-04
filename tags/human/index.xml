@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human on DIV documentation</title>
+    <link>/tags/human/index.xml</link>
+    <description>Recent content in Human on DIV documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/human/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to create a human model</title>
+      <link>/makehuman/creatingHumanModel/</link>
+      <pubDate>Tue, 28 Mar 2017 09:33:37 +0200</pubDate>
+      
+      <guid>/makehuman/creatingHumanModel/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open Makehuman application&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Adjust the Macros to the required human model in the tab Modelling. Where,&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gender, Age, Muscle, Weight, Height, Proportions, Skin shade, Ethnicity can be manipulated in the form of percentage.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The result of the changes can be seen in the human model instantly.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The values of the model created i.e gender, age, weight etc can be seen in the bottom left part of make human.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The fine tuning of the human size can be measured and altered using the measure tool available in the modelling tab. Where different part sizes can be altered based on ones need.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The clothes, Eyes, hair and other options related to the human can be found in the tab Geometrics.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The required clothes and shoes are added to the model.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hair and eyebrows are added to the model.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Different options are available on the right side of the model.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After the above steps the model would look as shown below.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The color chosen for the human can be changed in the Materials tab.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The color of human related structures such as,Skin ,Hair, Eyes, and Eyebrows can be changed using the Clothes option located on the left the color of the clothes can be changed as per requirement.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After following the above said steps and when a satisfied human model is created the model can be exported.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The Model can be exported to Blender tool (.mhx) where other manipulation of the human can be carried out such as Animation and Dynamics of the human&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
