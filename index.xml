@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DIV documentation</title>
+    <title>DIV project</title>
     <link>/index.xml</link>
-    <description>Recent content on DIV documentation</description>
+    <description>Recent content on DIV project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Mar 2017 13:16:45 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 31 Mar 2017 08:50:27 +0200</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About the DIV project</title>
+      <link>/about/</link>
+      <pubDate>Fri, 31 Mar 2017 08:50:27 +0200</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;To be added&lt;/p&gt;
+
+&lt;h2 id=&#34;deliverables&#34;&gt;Deliverables&lt;/h2&gt;
+
+&lt;h2 id=&#34;current-members&#34;&gt;Current members&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Tjark_Kreuzinger&#34;&gt;&lt;img src=&#34;../images/rg.png&#34; alt=&#34;researchgate&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/tjark-kreuzinger-51174375/&#34;&gt;&lt;img src=&#34;../images/in.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/a&gt; Tjark Kreuzinger (Toyota)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Pablo_Puente_Guillen&#34;&gt;&lt;img src=&#34;../images/rg.png&#34; alt=&#34;researchgate&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/pablo-puente-guillen-014a4023/&#34;&gt;&lt;img src=&#34;../images/in.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/a&gt; Pablo Puente Guillen (Toyota)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Annika_Larsson3&#34;&gt;&lt;img src=&#34;../images/rg.png&#34; alt=&#34;researchgate&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/annikalarsson/&#34;&gt;&lt;img src=&#34;../images/in.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/a&gt; Annika Larsson (Autoliv)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Nils_Lubbe2&#34;&gt;&lt;img src=&#34;../images/rg.png&#34; alt=&#34;researchgate&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/nils-l%C3%BCbbe-14018790/&#34;&gt;&lt;img src=&#34;../images/in.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/a&gt; Nils Lübbe (Autoliv)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Katarina_Bohman&#34;&gt;&lt;img src=&#34;../images/rg.png&#34; alt=&#34;researchgate&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/katarina-bohman-18924643/&#34;&gt;&lt;img src=&#34;../images/in.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/a&gt; Katarina Bohman (Autoliv)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Marco_Dozza&#34;&gt;&lt;img src=&#34;../images/rg.png&#34; alt=&#34;researchgate&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/cboda/&#34;&gt;&lt;img src=&#34;../images/chalmers_min.png&#34; alt=&#34;chalmers&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/cboda/&#34;&gt;&lt;img src=&#34;../images/in.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/a&gt; Marco Dozza (Chalmers University)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Christian-Nils_Boda&#34;&gt;&lt;img src=&#34;../images/rg.png&#34; alt=&#34;researchgate&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.chalmers.se/en/Staff/Pages/christian-nils-boda.aspx&#34;&gt;&lt;img src=&#34;../images/chalmers_min.png&#34; alt=&#34;chalmers&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/cboda/&#34;&gt;&lt;img src=&#34;../images/in.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/a&gt; Christian-Nils Åkerberg Boda (Chalmers University)&lt;/p&gt;
+
+&lt;h2 id=&#34;past-members&#34;&gt;Past members&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Erik_Rosen&#34;&gt;&lt;img src=&#34;../images/rg.png&#34; alt=&#34;researchgate&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/erik-ros%C3%A9n-b08538107/&#34;&gt;&lt;img src=&#34;../images/in.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/a&gt; Erik Rosén&lt;/p&gt;
+
+&lt;p&gt;Prateek Thalya&lt;/p&gt;
+
+&lt;p&gt;Leila Jaber&lt;/p&gt;
+
+&lt;h2 id=&#34;partners&#34;&gt;Partners&lt;/h2&gt;
+
+&lt;p&gt;Toyota&lt;/p&gt;
+
+&lt;p&gt;Autoliv&lt;/p&gt;
+
+&lt;p&gt;Chalmers University&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Add texture</title>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Animation on DIV documentation</title>
+    <title>Animation on DIV project</title>
     <link>/tags/animation/index.xml</link>
-    <description>Recent content in Animation on DIV documentation</description>
+    <description>Recent content in Animation on DIV project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="/tags/animation/index.xml" rel="self" type="application/rss+xml" />
