@@ -6,8 +6,33 @@
     <description>Recent content on DIV project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Mar 2017 08:50:27 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2018 13:30:00 +0200</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DIV Publications</title>
+      <link>/publications/</link>
+      <pubDate>Thu, 22 Feb 2018 13:30:00 +0200</pubDate>
+      
+      <guid>/publications/</guid>
+      <description>
+
+&lt;h1 id=&#34;publications&#34;&gt;Publications&lt;/h1&gt;
+
+&lt;h2 id=&#34;journal-publications&#34;&gt;Journal publications&lt;/h2&gt;
+
+&lt;p&gt;Boda, C.-N., et al. (2018). &amp;ldquo;Modelling how drivers respond to a bicyclist crossing their path at an intersection: How do test track and driving simulator compare?&amp;rdquo; Accident Analysis &amp;amp; Prevention 111: 238-250. (&lt;a href=&#34;https://doi.org/10.1016/j.aap.2017.11.032&#34;&gt;Read here&amp;hellip;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;conference-publications&#34;&gt;Conference publications&lt;/h2&gt;
+
+&lt;p&gt;Dozza, M. B., Christian-Nils; Thalya, Prateek; Jaber, Leila; Lubbe, Nils (2017). How do Drivers Negotiate Intersections with Pedestrians? Fractional Factorial Design in an Open-source Driving Simulator. RSS2017 Road Safety &amp;amp; Simulation International Conference, Den Haag, The Netherlands.&lt;/p&gt;
+
+&lt;h2 id=&#34;theses&#34;&gt;Theses&lt;/h2&gt;
+
+&lt;p&gt;Licentiate thesis
+Boda, C.-N. (2017). Driver interaction with vulnerable road users: Understanding and modelling driver behaviour for the design and evaluation of intelligent safety systems Chalmers University, Chalmers University. Licentiate degree.(&lt;a href=&#34;https://research.chalmers.se/en/publication/250519&#34;&gt;Read here&amp;hellip;&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About the DIV project</title>
