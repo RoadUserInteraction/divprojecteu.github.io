@@ -1176,7 +1176,7 @@ body:not(.post-template) .post-title {
 
 /* Keep images centered, and allow images wider than the main
    text column to break out. */
-.post-content img {
+.post-content img, .post-content p.partner-logo{
     display: block;
     max-width: 126%;
     height: auto;
@@ -1190,6 +1190,17 @@ body:not(.post-template) .post-title {
     -webkit-transform: translateX(-50%); /* for Safari and iOS */
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
+}
+
+.post-content img.partner-logo {
+  display: inline;
+  max-height: 20px;
+  padding : 0;
+  position: inherit;
+  left: auto;
+  -webkit-transform: translateX(0%); /* for Safari and iOS */
+  -ms-transform: translateX(0%); /* for IE9 */
+  transform: translateX(0%);
 }
 
 /* The author credit area after the post */
